@@ -1,0 +1,300 @@
+body {
+    background-image: url('../background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-show {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.container h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.container {
+    color: white;
+}
+
+
+.container h2{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.navbar{
+    margin-top: 35px;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    column-gap: 2rem;
+}
+
+.nav-link {
+    position: relative;
+    padding: .5rem 0rem;
+    color: white;
+    font-weight: normal;
+}
+
+
+.active::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #35ad33;
+}
+
+.nav-link:hover,
+:focus {
+    color: white;
+}
+
+.social-links a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.section-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaaaa;
+}
+
+.section-title p{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+section .container{
+    padding: 30px;  
+}
+
+.about-me .content h3{
+    color: #35ad33;
+
+}
+
+.row{
+    display: flex;
+}
+
+.image-fluid{
+    max-width: 100%;
+    height: auto;
+    overflow: clip;
+}
+
+.counts{
+    padding-top: 2rem;
+}
+
+
+.counts .count-box{
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 30px 30px 25px 30px;
+}
+
+
+.counts .count-box i{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform:translateX(-50%);
+    font-size: 24px;
+    background:  rgba(255, 255, 255, 0.08);
+    padding: 12px;
+    border-radius: 50px;
+    color: #35ad33;
+}
+
+.counts .count-box span{
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: white;
+}
+.counts .count-box p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px
+}
+
+.intrests .icon-box{
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.intrests .icon-box i{
+    font-size: 32px;
+    line-height: 1;
+    padding-right: 10px;
+}
+
+.resume .resume-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #065408;
+    position: relative;
+}
+
+.resume .resume-item h4{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #22960a;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5{
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.resume .resume-item ul{
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li{
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child{
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #22960a;
+    border: 2px solid  rgba(255, 255, 255, 0.15);
+}
+
+.contact .info-box{
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.contact .info-box i.bx{
+    font-size: 24px;
+    color: #35ad33;
+    border-radius: 50%;
+    padding: 14px;
+   float: left;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bx{
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant:normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    
+}
+
+.contact .info-box h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+
+.contact .info-box p{
+    font-size: 14px;
+    padding: 0;
+    color: #fff;
+    line-height: 24px;
+    margin: 0 0 0 68px;
+}
+
+
+.contact .info-box .social-links{
+    display: flex;
+    margin:5px 0 0 68px;
+}
+
+.contact .php-email-form{
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+}
+.mt-4{
+    margin-top: 1.5rem !important;
+}
+
+.contact .php-email-form input{
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border: none;
+}
+ .contact .php-email-form textarea{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background:rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+ }
+
+ .contact .php-email-form button[type=submit]{
+    background: #35ad33;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+ }

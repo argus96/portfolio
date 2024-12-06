@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- emalil js  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "RuPw8VU7kO3VGIvXP",
+            });
+        })();
+    </script>
+    <!-- emailjs -->
+
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- for info-box icon -->
+
+    <!-- bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap end -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- link css -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header id="header" class="section-show">
+        <div class="container">
+            <h1>
+                Ayush Ale Magar
+            </h1>
+            <h2 class="d-flex typewriter">
+                I'm a passionate <span id="dynamic-text"></span>
+            </h2>
+            <nav id="navbar" class="navbar">
+                <ul class="menu d-flex">
+                    <li>
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#about">About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#resume">
+                            Resume
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <div class="social-links d-flex">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-show">
+        <div class="about-me container">
+            <div class="section-title">
+                <h2>About</h2>
+                <p>Learn more about me</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="ayush.jpg" alt="Ayush" class="image-fluid">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Front-end Developer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A molestiae beatae tenetur inventore in
+                        vel, eligendi quidem, cum delectus optio, soluta hic recusandae quod sequi distinctio iste
+                        repellat possimus! Neque necessitatibus nihil dolore ratione? Iste deserunt sequi inventore
+                        impedit, facilis dolorum sed nam blanditiis vitae ipsum ab! Esse, cum animi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="counts container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="count-box">
+                        <i class="fa-regular fa-face-smile-beam"></i>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+                    <div class="count-box">
+                        <i class="fa-solid fa-book"></i>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5-md-0">
+                    <div class="count-box">
+                        <i class="fa-solid fa-headset"></i>
+                        <p>Hours of Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intrests container">
+            <div class="section-title">
+                <h2>intrest</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-person-walking text-primary"></i>
+                        <h3>traveling</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-puzzle-piece text-success"></i>
+                        <h3>Games</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-film text-primary"></i>
+                        <h3>anime/movies</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-camera text-info"></i>
+                        <h3>photos/videos </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="resume" class="resume section-show">
+        <div class="container">
+            <div class="section-title">
+                <h2>Resume</h2>
+                <p>check my resume</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Sumary</h3>
+                    <div class="resume-item pb-0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque repellendus, sit fugiat rerum
+                            temporibus commodi. Optio ex ut praesentium quis explicabo quasi repudiandae nesciunt aut id
+                            commodi doloribus quas, distinctio eius labore consequuntur libero soluta nisi perferendis
+                            obcaecati! Nostrum quo praesentium nam ipsam facilis quasi quisquam fugit doloremque quia
+                            fugiat?</p>
+                    </div>
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>Bachlor's Degree (BCA) - Tribhuvan University</h4>
+                        <h5>Running</h5>
+                        <p><em>Everest Innovative College - Kathmandu,Nepal</em></p>
+                        <p></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>+2 in Management - Higher Seconday Education Board</h4>
+                        <h5>july 4,2020</h5>
+                        <p><em>Nepal Kastamandap SS/College - Kathmandu,Nepal</em></p>
+                        <p></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>School leaving certificate(SLC)</h4>
+                        <h5>july 4,2020</h5>
+                        <p><em>Model School, Thankot - Kathmandu,Nepal</em></p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Experiance</h3>
+                    <div class="resume-item">
+                        <h4>internship</h4>
+                        <h5>Nov 17,2024</h5>
+                        <p><em>Allstar Technology Pvt. Ltd.</em></p>
+                        <p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>computer technician</h4>
+                        <h5>january 2019 - november 2024</h5>
+                        <p><em>Three Star Computers</em></p>
+                        <p>
+                        <ul>
+                            <li>Skill in problem solving.</li>
+                            <li>Desktop assembling dessembling</li>
+                            <li>Inventory Management</li>
+                            <li>Gaming setup skill</li>
+                            <li>Problem finding and solving(desktop,laptop)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contact" class="contact section-show">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Get In Touch</p>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-6  mt-4 d-flex align-item-strech">
+                    <div class="info-box ">
+                        <i class='bx bxs-map'></i>
+                        <h3>My Address</h3>
+                        <p>
+                            Thankot, Kathmandu
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0 d-flex align-item-strech">
+                    <div class="info-box">
+                        <i class='bx bxs-share-alt'></i>
+                        <h3>Social-links</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/argus96">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100040546483589">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-item-strech">
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <h3>Email Address</h3>
+                        <p>magar.ayush010@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-item-strech">
+                    <div class="info-box">
+                        <i class='bx bx-phone-call'></i>
+                        <h3>Mobile</h3>
+                        <p>+977 9861388411</p>
+                    </div>
+                </div>
+            </div>
+            <form class="php-email-form mt-4" onsubmit="SendMail(); return false;">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="form_name" class="form-control" id="fullname" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="User_email" id="email_id" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea name="message" class="form-control" rows="5" placeholder="Message" id="message" required></textarea>
+                </div>
+                <div class="text-center my-3">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+</html>
